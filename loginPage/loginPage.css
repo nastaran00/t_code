@@ -1,0 +1,45 @@
+#emailInputId{
+    border-radius: 10px;
+    background-color: white;
+    border-color:rgb(11.4%,63.1%,94.9%);
+    color:  rgb(11.4%,63.1%,94.9%);
+    font-size: larger;
+    height: 70px;
+    width: 400px;
+    margin-left: 38%; 
+    margin-top: 20%;
+    padding-left: 5px ;
+}
+#passwordInputId{
+    border-radius: 10px;
+    background-color: white;
+    border-color:rgb(11.4%,63.1%,94.9%);
+    color:  rgb(11.4%,63.1%,94.9%);
+    font-size: larger;
+    height: 70px;
+    width: 400px;
+    margin-left: 38%;
+    margin-top: 1%;
+    padding-left: 5px ;
+}
+#loginbutton{
+    border-radius: 50px;
+    background-color: rgb(11.4%,63.1%,94.9%);
+    color: white;
+    border-color: rgb(11.4%,63.1%,94.9%);;
+    height: 70px;
+    width: 400px;
+    font-size: larger;
+    margin-left: 38%;
+    margin-top: 1%;
+}
+#forgetPass{
+    color:rgb(11.4%,63.1%,94.9%);
+    margin-left: 38%;
+    margin-top: 1%;
+}
+#incorrectmsg{
+    color:red;
+    margin-left: 38%;
+    margin-top: 1%;
+}

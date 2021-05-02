@@ -1,0 +1,81 @@
+#createAccount{
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 38%;
+    margin-top:1% ;
+    color: rgb(11.4%,63.1%,94.9%);
+}
+#emailSignup{
+    border-radius: 10px;
+    background-color: white;
+    border-color:rgb(11.4%,63.1%,94.9%);
+    color:  rgb(11.4%,63.1%,94.9%);
+    font-size: larger;
+    height: 70px;
+    width: 400px;
+    margin-left: 38%; 
+    margin-top: 1%;
+    padding-left: 5px ;
+}
+#pass{
+    border-radius: 10px;
+    background-color: white;
+    border-color:rgb(11.4%,63.1%,94.9%);
+    color:  rgb(11.4%,63.1%,94.9%);
+    font-size: larger;
+    height: 70px;
+    width: 400px;
+    margin-left: 38%;
+    margin-top: 1%;
+    padding-left: 5px ;
+}
+#createA{
+    border-radius: 50px;
+    border-color:rgb(11.4%,63.1%,94.9%);
+    color:  white;
+    background-color: rgb(11.4%,63.1%,94.9%);
+    font-size: larger;
+    height: 60px;
+    width: 100px;
+    margin-left: 54%;
+    margin-top: 1%;
+    padding-left: 5px ;
+}
+
+#DateOfBirth{
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 38%;
+    margin-top: 1%;
+    
+}
+#DateOfBirthdiv2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: rgb(11.4%,63.1%,94.9%);
+}
+#month{
+    color: rgb(11.4%,63.1%,94.9%);
+    font-size: larger;
+    border-radius: 10px;
+    border-color: rgb(11.4%,63.1%,94.9%);
+    margin-right: 2%;
+    background-color: white;
+}
+#day{
+    color: rgb(11.4%,63.1%,94.9%);
+    font-size: larger;
+    border-radius: 10px;
+    border-color: rgb(11.4%,63.1%,94.9%);
+    margin-right: 2%;
+    background-color: white;
+}
+#year{
+    color: rgb(11.4%,63.1%,94.9%);
+    font-size: larger;
+    border-radius: 10px;
+    border-color: rgb(11.4%,63.1%,94.9%);
+    padding-right: 10px;
+    background-color: white;
+
+}

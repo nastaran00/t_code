@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="homepage.css">
+    
+    <script type="text/javascript" src="homepage.js"></script>
+ <!--  <script
+      src="https://unpkg.com/react@16/umd/react.production.min.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel" src="../App.js"></script>
+    --> 
+
+</head>
+<body>
+    <div id="homePagewhole">
+   <div id="leftHome">
+       <div id="homeIcon">
+           <span onclick="goToHome()">home</span>
+        </div>
+       <div id="editprofileIcon">
+           <span onclick="goToEdit()">edit profile</span>
+        </div>
+        <div id=logoutButton>
+            <span onclick="logout()">LogOut</span>
+        </div>
+    
+   </div> 
+   <div id="centerandright">
+       
+       <div  id="centerhome">
+           <div id="homeName">Home</div>
+           <div id="tweetSection">
+               <form id="f">
+                   <input id="texttweet" name="texttw" type="text" placeholder="tweet"/>
+                   <input  id="browsebutton" name="imagetw" type="file"  accept="image/*,video/*"/>
+                   
+               </form>
+               <button id="tweetButton" type="submit" onclick="tweetIt()">tweet</button>
+           </div>
+           <div id="listOfTweetSection">
+
+           </div>
+       </div>
+       <div id="editpage" style="display:none;">
+        <img src="../pics/a.jpeg"/>
+        <form id="editForm">
+            <input id="newNamee" type="text" placeholder="new name"/>
+            <input  id="browsebuttonForchangephoto" type="file" name="uploadfile" accept="image/*" placeholder="your image"/>
+            <input id="submitChanges" type="submit" value="change" onclick="changeProfile()"/>
+        </form>
+        </div>
+       <div id="rightOfhome" >
+           <input id="searchbar" type="text" placeholder="search bar"/>
+           <div id="righthome">Who to follow</div>
+       </div>
+       
+    </div> 
+    </div> 
+    
+</body>
+</html>

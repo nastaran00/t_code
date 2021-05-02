@@ -1,0 +1,27 @@
+#logIn{
+    border-radius: 50px;
+    background-color: white;
+    border-color:rgb(11.4%,63.1%,94.9%);
+    color:  rgb(11.4%,63.1%,94.9%);
+    font-size: larger;
+    height: 70px;
+    width: 400px;
+    margin-left: 38%;
+    
+    margin-top: 10%;
+}
+#signUp{
+    border-radius: 50px;
+    background-color: rgb(11.4%,63.1%,94.9%);
+    color: white;
+    border-color: rgb(11.4%,63.1%,94.9%);;
+    height: 70px;
+    width: 400px;
+    font-size: larger;
+    margin-left: 38%;
+    margin-top: 1%;
+    
+}
+#imageTwitter{
+    margin-left: 30%;
+}
